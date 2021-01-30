@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardDispenserSampleForSP", "CardDispenserSampleForSP\CardDispenserSampleForSP.csproj", "{0D457AA3-F47C-4B85-ABF1-7A83701C8327}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		ReleaseGeneralDongle|Any CPU = ReleaseGeneralDongle|Any CPU
+		ReleaseGeneralDongle|x64 = ReleaseGeneralDongle|x64
+		ReleaseGeneralDongle|x86 = ReleaseGeneralDongle|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Debug|x64.ActiveCfg = Debug|x64
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Debug|x64.Build.0 = Debug|x64
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Debug|x86.ActiveCfg = Debug|x86
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Debug|x86.Build.0 = Debug|x86
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Release|x64.ActiveCfg = Release|x64
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Release|x64.Build.0 = Release|x64
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Release|x86.ActiveCfg = Release|x86
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.Release|x86.Build.0 = Release|x86
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.ReleaseGeneralDongle|Any CPU.ActiveCfg = ReleaseGeneralDongle|Any CPU
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.ReleaseGeneralDongle|Any CPU.Build.0 = ReleaseGeneralDongle|Any CPU
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.ReleaseGeneralDongle|x64.ActiveCfg = ReleaseGeneralDongle|x64
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.ReleaseGeneralDongle|x64.Build.0 = ReleaseGeneralDongle|x64
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.ReleaseGeneralDongle|x86.ActiveCfg = ReleaseGeneralDongle|x86
+		{0D457AA3-F47C-4B85-ABF1-7A83701C8327}.ReleaseGeneralDongle|x86.Build.0 = ReleaseGeneralDongle|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1163B27-7FD4-4C98-8AC1-3561EA2FFEAE}
+	EndGlobalSection
+EndGlobal
