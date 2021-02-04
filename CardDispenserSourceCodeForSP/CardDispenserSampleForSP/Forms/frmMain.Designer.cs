@@ -50,6 +50,7 @@
             this.lblLedEmpty = new System.Windows.Forms.Label();
             this.pictureBoxLedEmpty = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -78,6 +79,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 5);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
@@ -86,24 +88,25 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1008, 729);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1344, 897);
             this.tableLayoutPanel1.TabIndex = 46;
             // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tableLayoutPanel2.ColumnCount = 3;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 41F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 55F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 70.23173F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.76827F));
             this.tableLayoutPanel2.Controls.Add(this.panel1, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.lblVersion, 0, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(4, 4);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1002, 30);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1336, 36);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // panel1
@@ -113,9 +116,10 @@
             this.panel1.Controls.Add(this.pictureBoxMinimizeButton);
             this.panel1.Controls.Add(this.pictureBoxSettingsButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(718, 3);
+            this.panel1.Location = new System.Drawing.Point(958, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(281, 24);
+            this.panel1.Size = new System.Drawing.Size(374, 28);
             this.panel1.TabIndex = 0;
             // 
             // pictureBoxCloseButton
@@ -123,10 +127,10 @@
             this.pictureBoxCloseButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBoxCloseButton.BackgroundImage = global::CardDispenserSampleForSP.Properties.Resources.App_Exit;
             this.pictureBoxCloseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxCloseButton.Location = new System.Drawing.Point(248, -1);
+            this.pictureBoxCloseButton.Location = new System.Drawing.Point(330, -2);
             this.pictureBoxCloseButton.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxCloseButton.Name = "pictureBoxCloseButton";
-            this.pictureBoxCloseButton.Size = new System.Drawing.Size(24, 24);
+            this.pictureBoxCloseButton.Size = new System.Drawing.Size(32, 30);
             this.pictureBoxCloseButton.TabIndex = 14;
             this.pictureBoxCloseButton.TabStop = false;
             this.pictureBoxCloseButton.Click += new System.EventHandler(this.pictureBoxCloseButton_Click_1);
@@ -136,10 +140,10 @@
             this.pictureBoxMaximizeButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBoxMaximizeButton.BackgroundImage = global::CardDispenserSampleForSP.Properties.Resources.App_Max;
             this.pictureBoxMaximizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxMaximizeButton.Location = new System.Drawing.Point(224, -1);
+            this.pictureBoxMaximizeButton.Location = new System.Drawing.Point(298, -2);
             this.pictureBoxMaximizeButton.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMaximizeButton.Name = "pictureBoxMaximizeButton";
-            this.pictureBoxMaximizeButton.Size = new System.Drawing.Size(24, 24);
+            this.pictureBoxMaximizeButton.Size = new System.Drawing.Size(32, 30);
             this.pictureBoxMaximizeButton.TabIndex = 10;
             this.pictureBoxMaximizeButton.TabStop = false;
             this.pictureBoxMaximizeButton.Click += new System.EventHandler(this.pictureBoxMaximizeButton_Click_1);
@@ -149,10 +153,10 @@
             this.pictureBoxMinimizeButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBoxMinimizeButton.BackgroundImage = global::CardDispenserSampleForSP.Properties.Resources.App_Min;
             this.pictureBoxMinimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxMinimizeButton.Location = new System.Drawing.Point(200, -1);
+            this.pictureBoxMinimizeButton.Location = new System.Drawing.Point(266, -2);
             this.pictureBoxMinimizeButton.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxMinimizeButton.Name = "pictureBoxMinimizeButton";
-            this.pictureBoxMinimizeButton.Size = new System.Drawing.Size(24, 24);
+            this.pictureBoxMinimizeButton.Size = new System.Drawing.Size(32, 30);
             this.pictureBoxMinimizeButton.TabIndex = 11;
             this.pictureBoxMinimizeButton.TabStop = false;
             this.pictureBoxMinimizeButton.Click += new System.EventHandler(this.pictureBoxMinimizeButton_Click_1);
@@ -162,10 +166,10 @@
             this.pictureBoxSettingsButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBoxSettingsButton.BackgroundImage = global::CardDispenserSampleForSP.Properties.Resources.App_Lock;
             this.pictureBoxSettingsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxSettingsButton.Location = new System.Drawing.Point(152, -1);
+            this.pictureBoxSettingsButton.Location = new System.Drawing.Point(202, -2);
             this.pictureBoxSettingsButton.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxSettingsButton.Name = "pictureBoxSettingsButton";
-            this.pictureBoxSettingsButton.Size = new System.Drawing.Size(24, 24);
+            this.pictureBoxSettingsButton.Size = new System.Drawing.Size(32, 30);
             this.pictureBoxSettingsButton.TabIndex = 13;
             this.pictureBoxSettingsButton.TabStop = false;
             this.pictureBoxSettingsButton.Click += new System.EventHandler(this.pictureBoxLoginLogoutButton_Click);
@@ -175,20 +179,23 @@
             this.lblVersion.AutoSize = true;
             this.lblVersion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lblVersion.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblVersion.Location = new System.Drawing.Point(3, 0);
+            this.lblVersion.Location = new System.Drawing.Point(4, 0);
+            this.lblVersion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(35, 30);
+            this.lblVersion.Size = new System.Drawing.Size(47, 36);
             this.lblVersion.TabIndex = 1;
             this.lblVersion.Text = "Ver";
             this.lblVersion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.lblDate);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(3, 39);
+            this.panel2.Location = new System.Drawing.Point(4, 48);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1002, 116);
+            this.panel2.Size = new System.Drawing.Size(1336, 142);
             this.panel2.TabIndex = 1;
             // 
             // lblDate
@@ -197,8 +204,9 @@
             this.lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F);
             this.lblDate.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblDate.Location = new System.Drawing.Point(0, 0);
+            this.lblDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(1002, 116);
+            this.lblDate.Size = new System.Drawing.Size(1336, 142);
             this.lblDate.TabIndex = 43;
             this.lblDate.Text = "Date";
             this.lblDate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -207,9 +215,10 @@
             // 
             this.panel3.Controls.Add(this.lblTime);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 161);
+            this.panel3.Location = new System.Drawing.Point(4, 198);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1002, 162);
+            this.panel3.Size = new System.Drawing.Size(1336, 198);
             this.panel3.TabIndex = 2;
             // 
             // lblTime
@@ -218,8 +227,9 @@
             this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 80F);
             this.lblTime.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblTime.Location = new System.Drawing.Point(0, 0);
+            this.lblTime.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(1002, 162);
+            this.lblTime.Size = new System.Drawing.Size(1336, 198);
             this.lblTime.TabIndex = 44;
             this.lblTime.Text = "Time";
             this.lblTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -228,9 +238,10 @@
             // 
             this.panel4.Controls.Add(this.lblMessage1stLine);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(3, 329);
+            this.panel4.Location = new System.Drawing.Point(4, 404);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1002, 176);
+            this.panel4.Size = new System.Drawing.Size(1336, 216);
             this.panel4.TabIndex = 3;
             // 
             // lblMessage1stLine
@@ -239,8 +250,9 @@
             this.lblMessage1stLine.Font = new System.Drawing.Font("Arial", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMessage1stLine.ForeColor = System.Drawing.Color.GreenYellow;
             this.lblMessage1stLine.Location = new System.Drawing.Point(0, 0);
+            this.lblMessage1stLine.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMessage1stLine.Name = "lblMessage1stLine";
-            this.lblMessage1stLine.Size = new System.Drawing.Size(1002, 176);
+            this.lblMessage1stLine.Size = new System.Drawing.Size(1336, 216);
             this.lblMessage1stLine.TabIndex = 45;
             this.lblMessage1stLine.Text = "Message 1st Line";
             this.lblMessage1stLine.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -249,9 +261,10 @@
             // 
             this.panel5.Controls.Add(this.lblMessage2ndLine);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(3, 511);
+            this.panel5.Location = new System.Drawing.Point(4, 628);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1002, 176);
+            this.panel5.Size = new System.Drawing.Size(1336, 216);
             this.panel5.TabIndex = 4;
             // 
             // lblMessage2ndLine
@@ -260,8 +273,9 @@
             this.lblMessage2ndLine.Font = new System.Drawing.Font("Arial", 39.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMessage2ndLine.ForeColor = System.Drawing.Color.GreenYellow;
             this.lblMessage2ndLine.Location = new System.Drawing.Point(0, 0);
+            this.lblMessage2ndLine.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMessage2ndLine.Name = "lblMessage2ndLine";
-            this.lblMessage2ndLine.Size = new System.Drawing.Size(1002, 176);
+            this.lblMessage2ndLine.Size = new System.Drawing.Size(1336, 216);
             this.lblMessage2ndLine.TabIndex = 46;
             this.lblMessage2ndLine.Text = "Message 2nd Line";
             this.lblMessage2ndLine.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -270,23 +284,24 @@
             // 
             this.tableLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.tableLayoutPanel3.ColumnCount = 9;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.Controls.Add(this.panel13, 7, 0);
             this.tableLayoutPanel3.Controls.Add(this.panel14, 8, 0);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 693);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(4, 852);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 1;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1002, 33);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1336, 41);
             this.tableLayoutPanel3.TabIndex = 5;
             // 
             // panel13
@@ -294,9 +309,10 @@
             this.panel13.Controls.Add(this.lblLedEmpty);
             this.panel13.Controls.Add(this.pictureBoxLedEmpty);
             this.panel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel13.Location = new System.Drawing.Point(563, 3);
+            this.panel13.Location = new System.Drawing.Point(753, 4);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(74, 27);
+            this.panel13.Size = new System.Drawing.Size(99, 33);
             this.panel13.TabIndex = 7;
             // 
             // lblLedEmpty
@@ -305,9 +321,10 @@
             this.lblLedEmpty.AutoSize = true;
             this.lblLedEmpty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.lblLedEmpty.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.lblLedEmpty.Location = new System.Drawing.Point(23, 6);
+            this.lblLedEmpty.Location = new System.Drawing.Point(31, 7);
+            this.lblLedEmpty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblLedEmpty.Name = "lblLedEmpty";
-            this.lblLedEmpty.Size = new System.Drawing.Size(44, 13);
+            this.lblLedEmpty.Size = new System.Drawing.Size(55, 17);
             this.lblLedEmpty.TabIndex = 33;
             this.lblLedEmpty.Text = "EMPTY";
             // 
@@ -320,7 +337,7 @@
             this.pictureBoxLedEmpty.Location = new System.Drawing.Point(0, 2);
             this.pictureBoxLedEmpty.Margin = new System.Windows.Forms.Padding(0);
             this.pictureBoxLedEmpty.Name = "pictureBoxLedEmpty";
-            this.pictureBoxLedEmpty.Size = new System.Drawing.Size(20, 20);
+            this.pictureBoxLedEmpty.Size = new System.Drawing.Size(27, 25);
             this.pictureBoxLedEmpty.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLedEmpty.TabIndex = 32;
             this.pictureBoxLedEmpty.TabStop = false;
@@ -328,20 +345,32 @@
             // panel14
             // 
             this.panel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel14.Location = new System.Drawing.Point(643, 3);
+            this.panel14.Location = new System.Drawing.Point(860, 4);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(360, 27);
+            this.panel14.Size = new System.Drawing.Size(480, 33);
             this.panel14.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1071, 64);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(161, 64);
+            this.button1.TabIndex = 44;
+            this.button1.Text = "TEST";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.ClientSize = new System.Drawing.Size(1344, 897);
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Card Dispenser";
@@ -392,6 +421,7 @@
         private System.Windows.Forms.PictureBox pictureBoxLedEmpty;
         private System.Windows.Forms.Label lblVersion;
         private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Button button1;
     }
 }
 

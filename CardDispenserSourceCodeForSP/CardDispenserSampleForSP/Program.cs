@@ -72,7 +72,7 @@ namespace CardDispenserSampleForSP.UI
             }
     
             
-                Application.Run(new frmSettings());
+                Application.Run(new frmMain());
             
 
         }

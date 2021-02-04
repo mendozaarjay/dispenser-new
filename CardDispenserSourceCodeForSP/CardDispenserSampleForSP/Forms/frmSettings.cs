@@ -29,14 +29,27 @@ namespace CardDispenserSampleForSP
             PrepareTabMiscellaneous();
             PrepareTabDatabase();
             PrepareTabCameras();
-
+            AddGates();
         }
+        private void AddGates()
+        {
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Id");
+            dt.Columns.Add("Name");
+            DataRow dr = dt.NewRow();
+            dr["Id"] = "01";
+            dr["Name"] = "Dispenser";
+            dt.Rows.Add(dr);
+            dt.AcceptChanges();
+
+            cmbGateName.DataSource = dt;
+            cmbGateName.DisplayMember = "Name";
+            cmbGateName.ValueMember = "Id";
+        }
+
 
         private void PrepareTabMiscellaneous()
         {
-
-            cmbGateName.DisplayMember = "GateName";
-            cmbGateName.ValueMember = "GateID";
             //cmbGateName.DataSource = _dataProvider.GetAllGates(false);
 
 
@@ -129,7 +142,18 @@ namespace CardDispenserSampleForSP
         private void btnTestDatabaseConnection_Click(object sender, EventArgs e)
         {
 
-
+            var connString = $"Server = {txtSqlServerName.Text}; Database={txtSqlDatabaseName.Text}; User Id = {txtSqlUserName.Text}; Password={txtSqlPassword.Text}";
+            SqlConnection cn = new SqlConnection();
+            cn.ConnectionString = connString;
+            try
+            {
+                cn.Open();
+                MessageBox.Show("Connection success.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnSaveSettings_Click(object sender, EventArgs e)

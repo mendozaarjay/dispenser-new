@@ -30,6 +30,14 @@
         {
             this.tabControlSettings = new System.Windows.Forms.TabControl();
             this.tabPageMiscellaneous = new System.Windows.Forms.TabPage();
+            this.txtLocation = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txtTerminal = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txtSerialNumber = new System.Windows.Forms.TextBox();
+            this.txtLocalIPAddress = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.cmbSgbBarrierComPort = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtNetworkBarrierIP = new System.Windows.Forms.TextBox();
@@ -84,14 +92,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnSaveSettings = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.txtLocalIPAddress = new System.Windows.Forms.TextBox();
-            this.txtSerialNumber = new System.Windows.Forms.TextBox();
-            this.txtTerminal = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.txtLocation = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
             this.tabControlSettings.SuspendLayout();
             this.tabPageMiscellaneous.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -160,6 +160,70 @@
             this.tabPageMiscellaneous.TabIndex = 3;
             this.tabPageMiscellaneous.Text = "Miscellaneous";
             this.tabPageMiscellaneous.UseVisualStyleBackColor = true;
+            // 
+            // txtLocation
+            // 
+            this.txtLocation.Location = new System.Drawing.Point(611, 500);
+            this.txtLocation.Name = "txtLocation";
+            this.txtLocation.Size = new System.Drawing.Size(113, 26);
+            this.txtLocation.TabIndex = 77;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(434, 503);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(83, 20);
+            this.label21.TabIndex = 78;
+            this.label21.Text = "Location :";
+            // 
+            // txtTerminal
+            // 
+            this.txtTerminal.Location = new System.Drawing.Point(611, 462);
+            this.txtTerminal.Name = "txtTerminal";
+            this.txtTerminal.Size = new System.Drawing.Size(113, 26);
+            this.txtTerminal.TabIndex = 75;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(434, 465);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(84, 20);
+            this.label19.TabIndex = 76;
+            this.label19.Text = "Terminal :";
+            // 
+            // txtSerialNumber
+            // 
+            this.txtSerialNumber.Location = new System.Drawing.Point(221, 497);
+            this.txtSerialNumber.Name = "txtSerialNumber";
+            this.txtSerialNumber.Size = new System.Drawing.Size(113, 26);
+            this.txtSerialNumber.TabIndex = 8;
+            // 
+            // txtLocalIPAddress
+            // 
+            this.txtLocalIPAddress.Location = new System.Drawing.Point(221, 459);
+            this.txtLocalIPAddress.Name = "txtLocalIPAddress";
+            this.txtLocalIPAddress.Size = new System.Drawing.Size(113, 26);
+            this.txtLocalIPAddress.TabIndex = 7;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(44, 500);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(126, 20);
+            this.label18.TabIndex = 74;
+            this.label18.Text = "Serial Number :";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(44, 462);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(147, 20);
+            this.label17.TabIndex = 73;
+            this.label17.Text = "Local IP Address :";
             // 
             // cmbSgbBarrierComPort
             // 
@@ -683,70 +747,6 @@
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnClose_Click);
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(44, 462);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(147, 20);
-            this.label17.TabIndex = 73;
-            this.label17.Text = "Local IP Address :";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(44, 500);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(126, 20);
-            this.label18.TabIndex = 74;
-            this.label18.Text = "Serial Number :";
-            // 
-            // txtLocalIPAddress
-            // 
-            this.txtLocalIPAddress.Location = new System.Drawing.Point(221, 459);
-            this.txtLocalIPAddress.Name = "txtLocalIPAddress";
-            this.txtLocalIPAddress.Size = new System.Drawing.Size(113, 26);
-            this.txtLocalIPAddress.TabIndex = 7;
-            // 
-            // txtSerialNumber
-            // 
-            this.txtSerialNumber.Location = new System.Drawing.Point(221, 497);
-            this.txtSerialNumber.Name = "txtSerialNumber";
-            this.txtSerialNumber.Size = new System.Drawing.Size(113, 26);
-            this.txtSerialNumber.TabIndex = 8;
-            // 
-            // txtTerminal
-            // 
-            this.txtTerminal.Location = new System.Drawing.Point(611, 462);
-            this.txtTerminal.Name = "txtTerminal";
-            this.txtTerminal.Size = new System.Drawing.Size(113, 26);
-            this.txtTerminal.TabIndex = 75;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(434, 465);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(84, 20);
-            this.label19.TabIndex = 76;
-            this.label19.Text = "Terminal :";
-            // 
-            // txtLocation
-            // 
-            this.txtLocation.Location = new System.Drawing.Point(611, 500);
-            this.txtLocation.Name = "txtLocation";
-            this.txtLocation.Size = new System.Drawing.Size(113, 26);
-            this.txtLocation.TabIndex = 77;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(434, 503);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(83, 20);
-            this.label21.TabIndex = 78;
-            this.label21.Text = "Location :";
             // 
             // frmSettings
             // 
